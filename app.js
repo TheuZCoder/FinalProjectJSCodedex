@@ -62,7 +62,7 @@ function create() {
 
     cursors = this.input.keyboard.createCursorKeys();
 
-    messageToPlayer = this.add.text(0, 0, 'INSTRUÇÕES: APERTE ESPAÇO PARA COMEÇAR', { fontFamily: '"Comic Sans MS", Times, serif', fontSize: "20px", color: "black", backgroundColor: "white" });
+    messageToPlayer = this.add.text(0, 0, 'INSTRUÇÕES: APERTE ESPAÇO PARA COMEÇAR E UTILIZE "^" PARA CIMA PARA PULAR', { fontFamily: '"Comic Sans MS", Times, serif', fontSize: "20px", color: "black", backgroundColor: "white" });
     Phaser.Display.Align.In.BottomCenter(messageToPlayer, background, 0, 50);
 }
 
